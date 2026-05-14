@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float pencile;
+    cout<<"enter the cost of pencile : ";
+    cin>>pencile;
+    float pen;
+    cout<<"enter the cost of pen : ";
+    cin>>pen;
+    float ereaser;
+    cout<<"enter the cost of ereaser : ";
+    cin>>ereaser;
+    float totalcost = pencile + pen + ereaser;
+    cout<<"the total cost of the items is = "<<totalcost<<endl;
+    cout<<"Total cost with gst - "<< (totalcost + (0.18 * totalcost));
+    return 0;
+}
