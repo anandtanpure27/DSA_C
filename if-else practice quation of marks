@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int marks;
+cout<<"enter your marks : " <<endl;
+cin>>marks;
+if( marks >= 35){
+    cout<<" congratulations you pass the exam " <<endl;
+}else{
+    cout<<" you are fail in his exam ,do best nex time" <<endl;
+}
+return 0;
+}
